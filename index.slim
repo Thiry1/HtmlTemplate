@@ -3,6 +3,7 @@ html lang="ja"
   == Slim::Template.new('./templates/_meta.slim').render(Object.new, :title => "未設定", :description => "サイト説明が入ります", :keywords => "f, o, o")
   body
     == Slim::Template.new('./templates/_header.slim').render
-    
+
+    == Slim::Template.new('./templates/snipets/form/_pref.slim').render(Object.new, :useTransmitMail => true)
     == Slim::Template.new('./templates/_footer.slim').render
     == Slim::Template.new('./templates/_script.slim').render
