@@ -1,7 +1,6 @@
 @charset "utf-8";
+
 @import './_lib';
 @import './_var';
-
-body{
-  @include ieTableSupport;//behavior display-table.htc,if Lte IE7 support
-}
+@import './_common';
+@import './_index';

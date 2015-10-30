@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+body{
+  @include ieTableSupport;//behavior display-table.htc,if Lte IE7 support
+}
+
+#header {
+
+}//#header
+
+#footer {
+
+}//#header
